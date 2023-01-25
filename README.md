@@ -6,6 +6,34 @@ I'm excited to announce the release of my open-source tool, Universal Markdown L
 ### Author
 -  This tool was developed and is maintained by [Angel Haro](https://www.linkedin.com/in/aharo24/), the founder of Universal Markdown Linker."
 
+## Supported apps
+
+-   Obsidian
+-   Evernote
+-   OneNote
+-   Notion
+-   Typora
+-   Turtl
+-   ZimWiki
+-   Standard Notes
+-   Joplin
+-   Boostnote
+-   Simplenote
+-   Laverna
+-   Joplin
+-   Bear
+-   Turtl
+-   Joplin
+-   Simplenote
+-   Standard Notes
+-   Zim
+-   JotterPad
+-   nvAlt
+-   Roam Research
+-   Simplenote
+-   Standard Notes
+
+
 ## Features
 #### Actively developing
 -   Adding CLI support
@@ -33,7 +61,10 @@ I'm excited to announce the release of my open-source tool, Universal Markdown L
 
 ## Requirements
 -   Python 3
-- 
+-  ... (in progress)
+
+## Installs
+...(in progress)
 
 
 

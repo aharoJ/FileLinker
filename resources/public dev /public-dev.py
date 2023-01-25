@@ -70,29 +70,228 @@
 #---------------------------------------------------------------
 
 
-import re
+# import re
 
-# Open the input file in read mode
-with open('obsidian.md', 'r') as file:
-    # Read the contents of the file into a string
-    contents = file.read()
+# # Open the input file in read mode
+# with open('obsidian.md', 'r') as file:
+#     # Read the contents of the file into a string
+#     contents = file.read()
 
-# Use a regular expression to find all instances of the pattern "![](file_name)"
-pattern = r'!\[\]\(([\w\d_.]+)\)'
-matches = re.findall(pattern, contents)
+# # Use a regular expression to find all instances of the pattern "![](file_name)"
+# pattern = r'!\[\]\(([\w\d_.]+)\)'
+# matches = re.findall(pattern, contents)
 
-# Iterate through the matches and replace them with the desired pattern "![](z/file_name)"
-for match in matches:
-    replacement = f'![](z/{match})'
-    contents = contents.replace(f'![]({match})', replacement)
+# # Iterate through the matches and replace them with the desired pattern "![](z/file_name)"
+# for match in matches:
+#     replacement = f'![](z/{match})'
+#     contents = contents.replace(f'![]({match})', replacement)
 
-# Open the output file in write mode
-with open('output.md', 'w') as file:
-    # Write the modified contents to the output file
-    file.write(contents)
+# # Open the output file in write mode
+# with open('output.md', 'w') as file:
+#     # Write the modified contents to the output file
+#     file.write(contents)
 
 
 
 #---------------------------------------------------------------
 
 
+
+
+# import re
+
+# # Open the input file in read mode
+# with open('obsidian.md', 'r') as file:
+#     # Read the contents of the file into a string
+#     contents = file.read()
+
+# # Use a regular expression to find all instances of the pattern "![](file_name)"
+# pattern = r'!\[\]\(([\w\d_.]+)\)'
+# matches = re.findall(pattern, contents)
+
+# # Iterate through the matches and replace them with the desired pattern "![](z/file_name)"
+# for match in matches:
+#     replacement = f'![](z/{match})'
+#     contents = contents.replace(f'![]({match})', replacement)
+
+# # Open the input file in write mode
+# with open('obsidian.md', 'w') as file:
+#     # Write the modified contents back to the input file
+#     file.write(contents)
+
+
+#---------------------------------------------------------------
+
+
+
+
+
+# import re
+
+# # Ask the user for the file name
+# file_name = input("Enter the file name: ")
+
+# # Open the input file in read mode
+# with open(file_name, 'r') as file:
+#     # Read the contents of the file into a string
+#     contents = file.read()
+
+# # Use a regular expression to find all instances of the pattern "![](file_name)"
+# pattern = r'!\[\]\(([\w\d_.]+)\)'
+# matches = re.findall(pattern, contents)
+
+# # Iterate through the matches and replace them with the desired pattern "![](z/file_name)"
+# for match in matches:
+#     replacement = f'![](z/{match})'
+#     contents = contents.replace(f'![]({match})', replacement)
+
+# # Open the input file in write mode
+# with open(file_name, 'w') as file:
+#     # Write the modified contents back to the input file
+#     file.write(contents)
+
+
+
+
+#---------------------------------------------------------------
+
+
+# import re
+# import os
+
+# # Get a list of all the .md files in the current directory
+# file_names = [f for f in os.listdir('.') if f.endswith('.md')]
+
+# # Loop through the list of file names
+# for file_name in file_names:
+#     # Open the input file in read mode
+#     with open(file_name, 'r') as file:
+#         # Read the contents of the file into a string
+#         contents = file.read()
+
+#     # Use a regular expression to find all instances of the pattern "![](file_name)"
+#     pattern = r'!\[\]\(([\w\d_.]+)\)'
+#     matches = re.findall(pattern, contents)
+
+#     # Iterate through the matches and replace them with the desired pattern "![](z/file_name)"
+#     for match in matches:
+#         replacement = f'![](z/{match})'
+#         contents = contents.replace(f'![]({match})', replacement)
+
+#     # Open the input file in write mode
+#     with open(file_name, 'w') as file:
+#         # Write the modified contents back to the input file
+#         file.write(contents)
+
+
+#---------------------------------------------------------------
+
+
+
+# import re
+# import os
+
+# # Set the root of the workspace
+# workspace_root = '/path/to/workspace'
+
+# # Recursively search for .md files in all subdirectories
+# for root, dirs, files in os.walk(workspace_root):
+#     for file_name in files:
+#         if file_name.endswith('.md'):
+#             # Construct the full path to the file
+#             file_path = os.path.join(root, file_name)
+
+#             # Open the input file in read mode
+#             with open(file_path, 'r') as file:
+#                 # Read the contents of the file into a string
+#                 contents = file.read()
+
+#             # Use a regular expression to find all instances of the pattern "![](file_name)"
+#             pattern = r'!\[\]\(([\w\d_.]+)\)'
+#             matches = re.findall(pattern, contents)
+#             print(f"Found {len(matches)} matches in {file_name}: {matches}")
+
+#             # Iterate through the matches and replace them with the desired pattern "![](z/file_name)"
+#             for match in matches:
+#                 replacement = f'![](z/{match})'
+#                 contents = contents.replace(f'![]({match})', replacement)
+
+#             # Open the input file in write mode
+#             with open(file_path, 'w') as file:
+#                 # Write the modified contents back to the input file
+#                 file.write(contents)
+
+
+
+#---------------------------------------------------------------
+
+
+
+
+
+
+
+# import re
+# import os
+
+# # Set the root of the workspace
+# workspace_root = '/Users/aharo/programming/python/linkFixer_workspace'
+
+# # Recursively search for .md files in all subdirectories
+# for root, dirs, files in os.walk(workspace_root):
+#     for file_name in files:
+#         if file_name.endswith('.md'):
+#             # Construct the full path to the file
+#             file_path = os.path.join(root, file_name)
+
+#             # Open the input file in read mode
+#             with open(file_path, 'r') as file:
+#                 # Read the contents of the file into a string
+#                 contents = file.read()
+
+#             # Use a regular expression to find all instances of the pattern "![](file_name)"
+#             pattern = r'!\[\]\(([\w\d_.]+)\)'
+#             matches = re.findall(pattern, contents)
+#             print(f"Found {len(matches)} matches in {file_name}: {matches}")
+
+#             # Iterate through the matches and replace them with the desired pattern "![](z/file_name)"
+#             for match in matches:
+#                 replacement = f'![](z/{match})'
+#                 contents = contents.replace(f'![]({match})', replacement)
+
+#             # Open the input file in write mode
+#             with open(file_path, 'w') as file:
+#                 # Write the modified contents back to the input file
+#                 file.write(contents)
+
+
+
+
+
+import re
+import os
+
+# Set the root of the workspace
+workspace_root = '/Users/aharo/programming/python/linkFixer_workspace'
+
+# Recursively search for .md files in all subdirectories
+for root, dirs, files in os.walk(workspace_root):
+    for file_name in files:
+        if file_name.endswith('.md'):
+            # Construct the full path to the file
+            file_path = os.path.join(root, file_name)
+
+            # Open the input file in read mode
+            with open(file_path, 'r') as file:
+                # Read the contents of the file into a string
+                contents = file.read()
+
+            # Use a regular expression to find all instances of the pattern "![](file_name)"
+            pattern = r'!\[\]\(([\w\d_./]+)\)'
+            matches = re.findall(pattern, contents)
+            print(f"Found {len(matches)} matches in {file_name}: {matches}")
+
+            # Iterate through the matches and replace them with the desired pattern "![](z/file_name)"
+            for match in matches:
+                replacement = f'![](/Users/aharo/programming/python/linkFixer_workspace/z/{match})'
+                contents = contents.replace(f'

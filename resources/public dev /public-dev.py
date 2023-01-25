@@ -388,6 +388,222 @@
 
 
 
+# import re
+# import os
+
+# # Set the root of the workspace
+# workspace_root = '/Users/aharo/programming/python/linkFixer_workspace'
+
+# # Recursively search for .md files in the workspace root
+# for root, dirs, files in os.walk(workspace_root):
+#     # Skip subdirectories of the workspace root
+#     if not os.path.samefile(os.path.abspath(root), os.path.abspath(workspace_root)):
+#         continue
+
+#     for file_name in files:
+#         if file_name.endswith('.md'):
+#             # Construct the full path to the file
+#             file_path = os.path.join(root, file_name)
+
+#             # Open the input file in read mode
+#             with open(file_path, 'r') as file:
+#                 # Read the contents of the file into a string
+#                 contents = file.read()
+
+#             # Use a regular expression to find all instances of the pattern "![](file_name)"
+#             pattern = r'!\[\]\(([\w\d_./]+)\)'
+#             matches = re.findall(pattern, contents)
+#             print(f"Found {len(matches)} matches in {file_name}: {matches}")
+
+#             # Iterate through the matches and replace them with the desired pattern "![](z/file_name)"
+#             for match in
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# # Set the root of the workspace
+# workspace_root = '/Users/aharo/programming/python/linkFixer_workspace'
+
+# # Recursively search for .md files in the workspace root
+# for root, dirs, files in os.walk(workspace_root):
+#     # Skip subdirectories of the workspace root
+#     if not os.path.samefile(os.path.abspath(root), os.path.abspath(workspace_root)):
+#         continue
+
+#     for file_name in files:
+#         if file_name.endswith('.md'):
+#             # Construct the full path to the file
+#             file_path = os.path.join(root, file_name)
+
+#             # Open the input file in read mode
+#             with open(file_path, 'r') as file:
+#                 # Read the contents of the file into a string
+#                 contents = file.read()
+
+#             # Use a regular expression to find all instances of the pattern "![](file_name)"
+#             pattern = r'!\[\]\(([\w\d_./]+)\)'
+#             matches = re.findall(pattern, contents)
+#             print(f"Found {len(matches)} matches in {file_name}: {matches}")
+
+#             # Iterate through the matches and replace them with the desired pattern "![](z/file_name)"
+#             for match in matches:
+#                 # Compute the relative path from the root of the workspace to the z directory
+#                 z_path = os.path.relpath(os.path.join(workspace_root, 'z
+
+
+
+
+
+
+
+# import re
+# import os
+
+# # Set the root of the workspace
+# workspace_root = '/Users/aharo/programming/python/linkFixer_workspace'
+
+# # Recursively search for .md files in the workspace root
+# for root, dirs, files in os.walk(workspace_root):
+#     # Skip subdirectories of the workspace root
+#     if not os.path.samefile(os.path.abspath(root), os.path.abspath(workspace_root)):
+#         continue
+
+#     for file_name in files:
+#         if file_name.endswith('.md'):
+#             # Construct the full path to the file
+#             file_path = os.path.join(root, file_name)
+
+#             # Open the input file in read mode
+#             with open(file_path, 'r') as file:
+#                 # Read the contents of the file into a string
+#                 contents = file.read()
+
+#             # Use a regular expression to find all instances of the pattern "![](file_name)"
+#             pattern = r'!\[\]\(([\w\d_./]+)\)'
+#             matches = re.findall(pattern, contents)
+#             print(f"Found {len(matches)} matches in {file_name}: {matches}")
+
+#             # Iterate through the matches and replace them with the desired pattern "![](z/file_name)"
+#             for match in matches:
+#                 # Compute the relative path from the root of the workspace to the z directory
+#                 z_path = os.path.relpath(os.path.join(workspace_root, 'z'), root)
+#                 replacement = f'![]({os.path.join(z_path, match)})'
+#                 contents = contents.replace(f'![]({match})', replacement)
+
+#             # Open the input file in write mode
+#             with open(file_path, 'w') as file:
+#                 # Write the modified contents back to the input file
+#                 file.write(contents)
+
+
+
+
+
+
+
+
+# import re
+# import os
+
+# # Set the root of the workspace
+# workspace_root = '/Users/aharo/programming/python/linkFixer_workspace'
+
+# # Recursively search for .md files in the workspace root
+# for root, dirs, files in os.walk(workspace_root):
+#     # Skip subdirectories of the workspace root
+#     if not os.path.samefile(os.path.abspath(root), os.path.abspath(workspace_root)):
+#         continue
+
+#     for file_name in files:
+#         if file_name.endswith('.md'):
+#             # Construct the full path to the file
+#             file_path = os.path.join(root, file_name)
+
+#             # Open the input file in read mode
+#             with open(file_path, 'r') as file:
+#                 # Read the contents of the file into a string
+#                 contents = file.read()
+
+#             # Use a regular expression to find all instances of the pattern "![](file_name)"
+#             pattern = r'!\[\]\(([\w\d_./]+)\)'
+#             matches = re.findall(pattern, contents)
+#             print(f"Found {len(matches)} matches in {file_name}: {matches}")
+
+#             # Iterate through the matches and replace them with the desired pattern "![](z/file_name)"
+#             for match in matches:
+#                 # Compute the relative path from the root of the workspace to the z directory
+#                 z_path = os.path.relpath(os.path.join(workspace_root, 'z'), root)
+#                 replacement = f'![]({z_path}
+
+
+
+
+
+
+
+
+
+# import re
+# import os
+
+# # Set the root of the workspace
+# workspace_root = '/Users/aharo/programming/python/linkFixer_workspace'
+
+# # Recursively search for .md files in the workspace root
+# for root, dirs, files in os.walk(workspace_root):
+#     # Skip subdirectories of the workspace root
+#     if not os.path.samefile(os.path.abspath(root), os.path.abspath(workspace_root)):
+#         continue
+
+#     for file_name in files:
+#         if file_name.endswith('.md'):
+#             # Construct the full path to the file
+#             file_path = os.path.join(root, file_name)
+
+#             # Open the input file in read mode
+#             with open(file_path, 'r') as file:
+#                 # Read the contents of the file into a string
+#                 contents = file.read()
+
+#             # Use a regular expression to find all instances of the pattern "![](file_name)"
+#             pattern = r'!\[\]\(([\w\d_./]+)\)'
+#             matches = re.findall(pattern, contents)
+#             print(f"Found {len(matches)} matches in {file_name}: {matches}")
+
+#             # Iterate through the matches and replace them with the desired pattern "![](z/file_name)"
+#             for match in matches:
+#                 # Compute the relative path from the root of the workspace to the z directory
+#                 z_path = os.path.relpath(os.path.join(workspace_root, 'z'), root)
+#                 replacement = '![](' + z_path + '/' + match + ')'
+#                 contents = contents.replace(f'![]({match})', replacement)
+
+#             # Open the input file in write mode
+#             with open(file_path, 'w') as file:
+#                 # Write the modified contents back to the input file
+#                 file.write(contents)
+
+
+
+
+
+
+
+
+
+
+
+
+
 import re
 import os
 
@@ -415,5 +631,4 @@ for root, dirs, files in os.walk(workspace_root):
             matches = re.findall(pattern, contents)
             print(f"Found {len(matches)} matches in {file_name}: {matches}")
 
-            # Iterate through the matches and replace them with the desired pattern "![](z/file_name)"
-            for match in
+            # Iterate through the matches and replace them

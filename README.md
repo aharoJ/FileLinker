@@ -99,21 +99,3 @@ I'm excited to announce the release of my open-source tool, Universal Markdown L
 -   Finally, it opens the file in write mode and writes the modified contents back to the input file.
 
 
-
-## [Contact Info](https://github.com/aharo24/opensource)
-
-Feel free to follow me on twitter: [@aharo24](https://www.twitter.com/aharo24)!
-
-Email me with any questions, improvements, bugs, or just to chat.
-
-io.aharo24@gmail.com
-
-
-
-
-
-
-
-
-
-

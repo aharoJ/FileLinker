@@ -23,7 +23,7 @@
 I'm excited to announce the release of my open-source tool, Universal Markdown Linker! As the founder and solo developer, I've poured countless hours into creating a reliable and efficient tool that makes linking markdown without the struggle of manually linking the files path manually. With over 1,500 lines of code and countless hours of testing, I've made sure that this script is stable and ready for use. Actively developing new features such as adding CLI support, dry run option, and progress bar. Also, planned features such as error handling, command line argument parser, and backup options.v Not only do I believe in the power of open-source, but I also believe in giving back to the community. I hope that my tool can make a positive impact and save others time and energy. Feel free to reach out to me with any questions, improvements, or just to chat.
 
 #### linking 96 files in 5 seconds
-![](z/aharo24%202023-01-20%20at%2010.23.42%20PM.png)
+![aharoJ](z/aharoJ.png)
 ### Author
 -  This tool was developed and is maintained by [Angel Haro](https://www.linkedin.com/in/aharo24/), the founder of Universal Markdown Linker."
 
